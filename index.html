@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>GuruIp</title>
+	<link rel="icon" href="./image/favicon.png" sizes="16x16" type="image/png">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<div class="header-wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="" class="header__logo"></a>
+				<div class="header__menu menu">
+					<button class="menu__icon">
+						<span></span>
+					</button>
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li>
+								<a data-goto=".headering__display" href="#" class="menu__link">iam</a>
+							</li>
+							<li>
+								<a data-goto=".content__about" href="#" class="menu__link">Ab^ut me</a>
+							</li>
+							<li>
+								<a data-goto=".wrap__wraper_1" href="#" class="menu__link">Ability</a>
+							</li>
+							<li>
+								<a data-goto=".portfolio__contente_1" href="#" class="menu__link">Portfolio</a>
+							</li>
+							<li>
+								<a href="gallery.html" class="menu__link">#Gallery</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+		</header>
+	</div>
+	<!--конец шапки-->
+	<div class="body">
+		<div class="headering">
+			<div class="headering__display">
+				<div class="headering__text">
+					<div class="text__titel _anim-items _anim-no-hide">Я начинающий JS разработчик из промышленного
+						города России- Н.Новгород
+					</div>
+					<div class="text__text _anim-items _anim-no-hide">Я обучаюсь мастерству у лучших мастеров
+						Front-enda. Я чувствую, наша встреча
+						предопределена Силой, я в этом не сомневаюсь <br>Да пребудет с тобой
+						Сила! </div>
+				</div>
+				<div class="headering__img _anim-items _anim-no-hide "><img src="./image/pngegg.png"
+						alt="фото программиста">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--конец первого блока, начало второва-->
+	<div class="content ">
+		<div class="content__about">
+			<div class="about__text _anim-items">
+				<div class="about__titel-1">
+					<h2>Обо мне.</h2>
+				</div>
+				<h3>Обучение: </h3>
+				<p>Я подован front-end Developer, в дальнейшем планирую развиться до джедая-мастера javaScript
+					Developer. На
+					данном этапе обучает меня мастер-джедай Senior JS Developer.</p>
+			</div>
+			<div class="about__img _anim-items"><img class="_anim-show"
+					src="./image/photo_2021-07-27_21-18-56-removebg-preview.png" height="400"
+					alt="javaScript разработчик">
+					<div class="summary_aboute"><a class="summary_about" href="./portfolio.pdf" download="">Резюме</a></div></div>
+			<div class="about__text-2 _anim-items">
+				<h3>Кодекс чести:</h3>
+				<ul>
+					<li>Держу слово;</li>
+					<li>Ответственный;</li>
+					<li>Уважаю своего учителя;</li>
+					<li>Уважаю совет джедаев;</li>
+					<li>Служу Республике;</li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--конец второва блока-->
+	<!--начало третьего блока-->
+	<div class="wrap ">
+		<div class="wrap__wraper wrap__wraper_1">
+			<div class="wrap__img _anim-items">
+				<img src="./image/Screen-Shot-2018-09-23-at-02.32.23-removebg-preview.png"
+					alt="junior developer портфолио">
+			</div>
+			<div class="wraper__content">
+				<div class="wraper__titel _anim-items">
+					<h2>Аспекты способностей Силы джедая:</h2>
+				</div>
+				<div class="wraper__text _anim-items">
+					<ul>
+						<li>Стандарт HTML5</li>
+						<li>CSS; JavaScript</li>
+						<li>Именование классов по методологии БЭМ</li>
+						<li>Адаптивная верстка</li>
+						<li>Кроссбраузерность</li>
+						<li>Работа с графикой в Photoshop, Figma, Zepplin</li>
+						<li>Препроцессор Sass;</li>
+						<li>Размещение сайта на хостинге;</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--конец третьего блока-->
+	<div class="portfolio">
+		<div class="portfolio__contente portfolio__contente_1">
+			<div class="contente__text">
+				<div class="contente__titel _anim-items">Моё Портфолио</div>
+				<div class="contente__text-text _anim-items">Здесь собрана моя коллекция работ, которую я успел
+					наклепать за срок моего обучения в роли подована. Сила с Нами!
+				</div>
+			</div>
+			<div class="contente__img _anim-items"><img src="./image/photo_2021-07-27_21-30-03-removebg-preview.png"
+					alt="Портфолио подована-джедая">
+			</div>
+		</div>
+		<!-- начало галлереи -->
+		<div class="gallerier">
+			<div class="gallery swiper mySwiper">
+				<div class="gallery_list swiper-wrapper">
+					<div class="gallery_item swiper-slide">
+						<img src="./imageSlide/birt.png" alt="игра в птичку">
+						<div class="gallery_text">
+							<h3 class="gallary_titel">Игра Птичка</h3>
+							<p>Старая добрая тыкалка- прыголка на подобии Марио.
+							</p>
+							<a class="gallery_a" href="https://guruip.github.io/Flappy_bird/">Посмотреть</a>
+						</div>
+					</div>
+
+					<div class="gallery_item swiper-slide">
+						<img src="./imageSlide/dino.png" alt="игра дино">
+						<div class="gallery_text">
+							<h3 class="gallary_titel">Игра Дино</h3>
+							<p>Игра в которой Динозаврик пытается перепрыкгуть через кактус.
+							</p>
+							<a class="gallery_a" href="https://guruip.github.io/dino-game/">Посмотреть</a>
+						</div>
+					</div>
+
+					<div class="gallery_item swiper-slide">
+						<img src="./imageSlide/numderQestion.png" alt="игра отгадай число">
+						<div class="gallery_text">
+							<h3 class="gallary_titel">Игра Отгадай Число</h3>
+							<p>Здесь тебе предстоит отгодать число от 1 до 100.
+							</p>
+							<a class="gallery_a" href="https://guruip.github.io/number-game/">Посмотреть</a>
+						</div>
+					</div>
+
+					<div class="gallery_item swiper-slide">
+						<img src="./imageSlide/Screenshot (13).png" alt="игра змейка">
+						<div class="gallery_text">
+							<h3 class="gallary_titel">Игра Змейка</h3>
+							<p>В эту игру помоему играл каждый, она не требует описания.
+							</p>
+							<a class="gallery_a" href="https://guruip.github.io/snake_game/">Посмотреть</a>
+						</div>
+					</div>
+
+					<div class="gallery_item swiper-slide">
+						<img src="./imageSlide/sea.png" alt="игра морской бой">
+						<div class="gallery_text">
+							<h3 class="gallary_titel">Игра Морской Бой</h3>
+							<p>Потопи все коробли соперника.
+							</p>
+							<a class="gallery_a" href="#">Посмотреть</a>
+						</div>
+					</div>
+
+					<div class="gallery_item swiper-slide">
+						<img src="./imageSlide/xo.png" alt="игра крестики нолики">
+						<div class="gallery_text">
+							<h3 class="gallary_titel">Игра Крестики Нолики</h3>
+							<p>Играй в двоём!Собери комбинацию.
+							</p>
+							<a class="gallery_a" href="https://guruip.github.io/X-0/">Посмотреть</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--конец галлереи и третьего блока-->
+	<footer>
+		<div class="basement">
+			<div class="basement__container">
+				<div class="basement__name">П$танин Евгений</div>
+				<div class="basement__contact">
+					<div class="basement__phone"><span></span>Phone: 8 920 021 55-64</div>
+					<div class="basement__mail"><span></span><a href="https://passport.yandex.ru/auth?retpath=%2F%2Fyandex.ru%2Fsupport%2Fmail%2Fauth.html">mail: guruip@yandex.ru</a></div>
+					<div class="basement__telegram"><span></span>t.me/Ip_Guru</div>
+				</div>
+			</div>
+			<div class="conteiner">
+				<form action="sender.php" method="post">
+					<input type="text" class="name" name="name" placeholder="Имя" required>
+					<input type="text" class="phone" name="phone" placeholder="Телефон">
+					<input type="email" name="email" placeholder="Email" required>
+					<textarea name="text" id="" cols="30" rows="10" placeholder="Введите текст"></textarea>
+					<button type="button" class="send-form">Отправить форму</button>
+					<div class="status"></div>
+				</form>
+			</div>
+		</div>
+		<!--конец блока-->
+		<!-- начало формы -->
+	</footer>
+	    <script src="js/scriptBlock.js"></script>
+		
+		<script src="js/scriptMenu.js"></script>
+		
+		<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+		<script src="js/scriptSlider.js"></script>
+		<!-- <script src="scriptForm.js"></script> -->
+		<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+     	<script src="js/slick.min.js"></script>
+    	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script> -->
+     	<script src="js/jquery.maskedinput.js"></script>
+     	<script src="js/jquery.validate.min.js"></script>
+</body>
+
+</html>
